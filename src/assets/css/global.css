@@ -1,0 +1,84 @@
+@import url(https://db.onlinewebfonts.com/c/a294fb387eda4c52a3224aa008dcb2fe?family=Museo+Sans+Cyrl+500+Regular);
+@import url(https://db.onlinewebfonts.com/c/a81c6ef023e90fb9f87ac017d242a337?family=Montserrat);
+@font-face {
+    font-family: "Museo Sans Cyrl 500 Regular";
+    src: url("https://db.onlinewebfonts.com/t/a294fb387eda4c52a3224aa008dcb2fe.eot");
+    src: url("https://db.onlinewebfonts.com/t/a294fb387eda4c52a3224aa008dcb2fe.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/a294fb387eda4c52a3224aa008dcb2fe.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/a294fb387eda4c52a3224aa008dcb2fe.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/a294fb387eda4c52a3224aa008dcb2fe.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/a294fb387eda4c52a3224aa008dcb2fe.svg#Museo Sans Cyrl 500 Regular")format("svg");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://db.onlinewebfonts.com/t/a81c6ef023e90fb9f87ac017d242a337.eot");
+    src: url("https://db.onlinewebfonts.com/t/a81c6ef023e90fb9f87ac017d242a337.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/a81c6ef023e90fb9f87ac017d242a337.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/a81c6ef023e90fb9f87ac017d242a337.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/a81c6ef023e90fb9f87ac017d242a337.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/a81c6ef023e90fb9f87ac017d242a337.svg#Montserrat")format("svg");
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    color: #333333;
+    font-family: "Museo Sans Cyrl 500 Regular";
+    font-weight: 500;
+}
+
+.gray1 {
+    color: rgba(51, 51, 51, 1);
+}
+
+.gray2 {
+    color: rgba(79, 79, 79, 1)
+}
+
+.gray3 {
+    color:rgba(130, 130, 130, 1);
+}
+
+.fontMuseoSans {
+    font-family: "Museo Sans Cyrl 500 Regular";
+}
+
+.fontMontserrat {
+    font-family: "Montserrat";
+}
+
+.fontWeigth500{
+    font-weight: 500;
+}
+
+.fontWeigth400{
+    font-weight: 400;
+}
+
+.customH2 {
+    font-size: 5.6rem;
+    line-height: 6.6rem;
+}
+
+.marginBottom60 {
+    margin-bottom: 60px;
+}
+
+.purpleBackground {
+    background-color: rgb(98 72 255 / 10%);
+}
+
+.displayNone {
+    display: none;
+}
+
+@media only screen and (max-width: 670px) {
+    .customH2 {
+        font-size: 4rem;
+        line-height: 4.4rem;
+    }
+
+}
